@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="managing-many-to-many-relationship-final" />
+        <module name="initial" />
+        <module name="service-c-consumer (2)" />
+        <module name="database-lab" />
+        <module name="service-c-consumer (1)" />
+        <module name="complete" />
+        <module name="configuring-relational-database" />
+        <module name="service-a-producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accessing-data-jpa-initial" target="1.5" />
+      <module name="demo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="complete" options="-parameters" />
+      <module name="configuring-relational-database" options="-parameters" />
+      <module name="database-lab" options="-parameters" />
+      <module name="initial" options="-parameters" />
+      <module name="managing-many-to-many-relationship-final" options="-parameters" />
+      <module name="service-a-producer" options="-parameters" />
+      <module name="service-c-consumer (1)" options="-parameters" />
+      <module name="service-c-consumer (2)" options="-parameters" />
+    </option>
+  </component>
+</project>
